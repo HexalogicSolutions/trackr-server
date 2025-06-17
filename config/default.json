@@ -1,0 +1,6 @@
+{   
+    
+    "mongoURI" : "mongodb+srv://root:root@cluster0.0qspf.mongodb.net/trackrDB?retryWrites=true&w=majority",
+    "mongoURIx" : "mongodb://0.0.0.0:27017/hexal",
+    "jwtSecret" : "jwtSecret" 
+}        

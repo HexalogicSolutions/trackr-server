@@ -1,0 +1,93 @@
+2022-11-24T09:51:31.609+05:30|DEBUG|Server started and running at Port + 5000
+2022-11-24T09:54:09.902+05:30|DEBUG|Route: auth.post/
+2022-11-24T09:54:09.902+05:30|DEBUG|Inserting auth record: [object Object]
+2022-11-24T09:54:09.906+05:30|ERROR|Token not valid : jwt expired - TokenExpiredError: jwt expired
+    at F:\HexaLogic\trackRTest\trackr-server\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (F:\HexaLogic\trackRTest\trackr-server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (F:\HexaLogic\trackRTest\trackr-server\node_modules\jsonwebtoken\verify.js:94:10)
+    at F:\HexaLogic\trackRTest\trackr-server\routes\api\auth.js:13:27
+    at Layer.handle [as handle_request] (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\index.js:317:13)
+    at F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\index.js:284:7
+2022-11-24T09:54:53.939+05:30|DEBUG|Route: auth.post/
+2022-11-24T09:54:53.940+05:30|DEBUG|Inserting auth record: [object Object]
+2022-11-24T09:54:53.941+05:30|ERROR|Token not valid : jwt expired - TokenExpiredError: jwt expired
+    at F:\HexaLogic\trackRTest\trackr-server\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (F:\HexaLogic\trackRTest\trackr-server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (F:\HexaLogic\trackRTest\trackr-server\node_modules\jsonwebtoken\verify.js:94:10)
+    at F:\HexaLogic\trackRTest\trackr-server\routes\api\auth.js:13:27
+    at Layer.handle [as handle_request] (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\index.js:317:13)
+    at F:\HexaLogic\trackRTest\trackr-server\node_modules\express\lib\router\index.js:284:7
+2022-11-24T09:54:58.304+05:30|DEBUG|Route: auth.post/
+2022-11-24T09:54:58.304+05:30|DEBUG|Inserting auth record: [object Object]
+2022-11-24T09:54:58.686+05:30|DEBUG|Jwt Sign Successfully
+2022-11-24T09:54:58.878+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2022-11-24T09:54:58.879+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2022-11-24T09:54:58.884+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2022-11-24T09:54:58.885+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2022-11-24T09:54:58.887+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2022-11-24T09:54:58.887+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2022-11-24T09:54:58.888+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2022-11-24T09:54:58.890+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2022-11-24T09:54:58.931+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2022-11-24T09:54:58.932+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2022-11-24T09:54:59.499+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2022-11-24T09:54:59.499+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2022-11-24T09:54:59.501+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2022-11-24T09:54:59.501+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2022-11-24T09:54:59.503+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2022-11-24T09:54:59.503+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2022-11-24T09:54:59.505+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2022-11-24T09:54:59.508+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2022-11-24T09:54:59.512+05:30|DEBUG|Route: auth.post/
+2022-11-24T09:54:59.512+05:30|DEBUG|Inserting auth record: [object Object]
+2022-11-24T09:54:59.553+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2022-11-24T09:54:59.553+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2022-11-24T09:54:59.555+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2022-11-24T09:54:59.556+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2022-11-24T09:54:59.557+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2022-11-24T09:54:59.557+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2022-11-24T09:54:59.559+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2022-11-24T09:54:59.559+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2022-11-24T09:54:59.561+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2022-11-24T09:54:59.570+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2022-11-24T09:54:59.571+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2022-11-24T09:54:59.575+05:30|DEBUG|Profile authenticated successfully
+2022-11-24T09:54:59.674+05:30|ERROR|Entity not found
+2022-11-24T09:59:38.846+05:30|DEBUG|Route: groups.get/
+2022-11-24T09:59:38.847+05:30|DEBUG|find record: 
+2022-11-24T09:59:38.872+05:30|DEBUG|Route: groups.get/
+2022-11-24T09:59:38.873+05:30|DEBUG|find record: 
+2022-11-24T12:06:59.877+05:30|DEBUG|Server started and running at Port + 5000
+2022-11-24T12:07:16.739+05:30|DEBUG|Route: auth.post/
+2022-11-24T12:07:16.739+05:30|DEBUG|Inserting auth record: [object Object]
+2022-11-24T12:07:16.754+05:30|DEBUG|Route: groups.get/
+2022-11-24T12:07:16.754+05:30|DEBUG|find record: 
+2022-11-24T12:07:16.765+05:30|DEBUG|Profile authenticated successfully
+2022-11-24T12:07:18.869+05:30|DEBUG|Route: auth.post/
+2022-11-24T12:07:18.869+05:30|DEBUG|Inserting auth record: [object Object]
+2022-11-24T12:07:18.873+05:30|DEBUG|Profile authenticated successfully
+2022-11-24T12:07:18.885+05:30|DEBUG|Route: groups.get/
+2022-11-24T12:07:18.885+05:30|DEBUG|find record: 
+2022-11-24T12:07:18.893+05:30|DEBUG|Route: groups.get/
+2022-11-24T12:07:18.894+05:30|DEBUG|find record: 
+2022-11-24T18:04:24.255+05:30|DEBUG|Server started and running at Port + 5000

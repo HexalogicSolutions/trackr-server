@@ -1,0 +1,36 @@
+2023-04-26T13:58:05.138+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-26T15:45:54.745+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-26T15:45:54.756+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-26T15:45:54.783+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-26T15:45:54.784+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-26T15:45:54.786+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-26T15:45:54.786+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-26T15:45:54.787+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-26T15:45:54.789+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-26T15:45:54.903+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-26T15:45:54.906+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-26T15:45:55.153+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-26T15:45:55.154+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-26T15:45:55.156+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-26T15:45:55.157+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-26T15:45:55.159+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-26T15:45:55.159+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-26T15:45:55.161+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-26T15:45:55.163+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-26T15:45:55.566+05:30|DEBUG|Route: auth.post/
+2023-04-26T15:45:55.567+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-26T15:45:57.012+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-26T15:45:57.013+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-26T15:45:57.016+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-26T15:45:57.016+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-26T15:45:57.018+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-26T15:45:57.018+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-26T15:45:57.024+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-04-26T15:45:57.024+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-04-26T15:45:57.029+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-04-26T15:45:57.118+05:30|DEBUG|Profile authenticated successfully
+2023-04-26T15:45:57.287+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-26T15:45:57.288+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-26T15:45:57.546+05:30|ERROR|Entity not found
+2023-04-26T15:46:01.160+05:30|DEBUG|Route: category.get/
+2023-04-26T15:46:01.160+05:30|DEBUG|Getting category list

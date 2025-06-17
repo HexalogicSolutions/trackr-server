@@ -1,0 +1,281 @@
+2023-04-20T10:52:27.831+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-20T10:55:49.321+05:30|DEBUG|Route: auth.post/
+2023-04-20T10:55:49.321+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T10:55:49.322+05:30|ERROR|Token not valid : jwt malformed - JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\jsonwebtoken\verify.js:63:17)
+    at F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\routes\api\auth.js:13:27
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\index.js:317:13)
+    at F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\index.js:275:10)
+2023-04-20T11:00:41.787+05:30|DEBUG|Route: auth.post/
+2023-04-20T11:00:41.788+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T11:00:41.789+05:30|ERROR|Token not valid : jwt malformed - JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\jsonwebtoken\verify.js:63:17)
+    at F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\routes\api\auth.js:13:27
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\index.js:317:13)
+    at F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\router\index.js:275:10)
+2023-04-20T11:00:48.081+05:30|DEBUG|Route: auth.post/
+2023-04-20T11:00:48.081+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T11:00:48.477+05:30|DEBUG|Jwt Sign Successfully
+2023-04-20T11:00:48.812+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-20T11:00:48.816+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-20T11:00:48.820+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-20T11:00:48.820+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-20T11:00:48.822+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-20T11:00:48.823+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-20T11:00:48.825+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-20T11:00:48.825+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-20T11:00:48.839+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-20T11:00:48.839+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-20T11:00:49.210+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-20T11:00:49.210+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-20T11:00:49.212+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-20T11:00:49.213+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-20T11:00:49.214+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-20T11:00:49.215+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-20T11:00:49.220+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-20T11:00:49.222+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-20T11:00:49.224+05:30|DEBUG|Route: auth.post/
+2023-04-20T11:00:49.224+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T11:00:49.250+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-20T11:00:49.250+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-20T11:00:49.548+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-20T11:00:49.549+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-20T11:00:49.550+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-20T11:00:49.550+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-20T11:00:49.551+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-04-20T11:00:49.552+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-04-20T11:00:49.553+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-04-20T11:00:49.560+05:30|DEBUG|Profile authenticated successfully
+2023-04-20T11:00:49.571+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-20T11:00:49.572+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-20T11:00:49.575+05:30|ERROR|Entity not found
+2023-04-20T11:00:55.032+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-20T11:00:55.033+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-20T11:00:55.035+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-20T11:00:55.035+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-20T11:00:55.037+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-20T11:00:55.037+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-20T11:00:55.038+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-04-20T11:00:55.038+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-04-20T11:00:55.046+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-04-20T11:00:55.048+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-20T11:00:55.049+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-20T11:01:00.151+05:30|DEBUG|Route: entitytype.get/
+2023-04-20T11:01:00.152+05:30|DEBUG|Inserting entitytype record: undefined
+2023-04-20T11:01:00.159+05:30|DEBUG|Route: entitytype.get/
+2023-04-20T11:01:00.159+05:30|DEBUG|Inserting entitytype record: undefined
+2023-04-20T11:01:03.948+05:30|DEBUG|Route: entitytype.get/
+2023-04-20T11:01:03.948+05:30|DEBUG|Inserting entitytype record: undefined
+2023-04-20T11:01:03.955+05:30|DEBUG|Route: entitytype.get/
+2023-04-20T11:01:03.955+05:30|DEBUG|Inserting entitytype record: undefined
+2023-04-20T11:01:05.244+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-20T11:01:05.244+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-20T11:01:05.246+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-20T11:01:05.246+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-20T11:01:05.248+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-20T11:01:05.248+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-20T11:01:05.249+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-20T11:01:05.254+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-20T11:01:05.270+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-20T11:01:05.271+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-20T11:01:05.272+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-20T11:01:05.272+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-20T11:01:05.276+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-20T11:01:05.277+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-20T11:01:05.278+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-04-20T11:01:05.278+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-04-20T11:01:05.282+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-20T11:01:05.283+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-20T11:01:05.284+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-04-20T11:01:05.292+05:30|ERROR|Entity not found
+2023-04-20T11:01:59.248+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-20T11:02:04.981+05:30|DEBUG|Route: groups.get/
+2023-04-20T11:02:04.982+05:30|DEBUG|find record: 
+2023-04-20T11:02:05.283+05:30|DEBUG|Route: groups.get/
+2023-04-20T11:02:05.284+05:30|DEBUG|find record: 
+2023-04-20T11:02:08.580+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-20T11:02:08.580+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-20T11:02:08.585+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-20T11:02:08.585+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-20T11:02:08.588+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-20T11:02:08.588+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-20T11:02:08.589+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-20T11:02:08.591+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-20T11:02:08.609+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-20T11:02:08.609+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-20T11:02:08.855+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-20T11:02:08.856+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-20T11:02:08.864+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-20T11:02:08.864+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-20T11:02:08.866+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-04-20T11:02:08.866+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-04-20T11:02:08.871+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-04-20T11:02:09.128+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-20T11:02:09.132+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-20T11:02:09.385+05:30|ERROR|Entity not found
+2023-04-20T11:02:12.550+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-20T11:02:12.550+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-20T11:02:12.552+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-20T11:02:12.552+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-20T11:02:12.557+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-20T11:02:12.557+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-20T11:02:12.559+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-04-20T11:02:12.559+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-04-20T11:02:12.565+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-04-20T11:02:12.567+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-20T11:02:12.832+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-20T11:02:13.098+05:30|ERROR|Entity not found
+2023-04-20T11:02:13.286+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-20T11:02:13.287+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-20T11:02:13.288+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-20T11:02:13.289+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-20T11:02:13.290+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-20T11:02:13.290+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-20T11:02:13.291+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-04-20T11:02:13.291+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-04-20T11:02:13.292+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-20T11:02:13.293+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-20T11:02:13.552+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-04-20T11:02:13.566+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-20T11:02:13.567+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-20T11:02:13.569+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-20T11:02:13.570+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-20T11:02:13.573+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-20T11:02:13.573+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-20T11:02:13.826+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-04-20T11:02:13.827+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-04-20T11:02:13.830+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-20T11:02:13.831+05:30|ERROR|Entity not found
+2023-04-20T11:02:13.832+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-20T11:02:13.833+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-04-20T11:02:14.109+05:30|ERROR|Entity not found
+2023-04-20T11:02:54.370+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-20T11:02:55.770+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-20T11:12:02.690+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-20T11:20:07.907+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-20T11:20:09.060+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-20T15:40:26.425+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-20T15:45:13.441+05:30|DEBUG|Route: auth.post/
+2023-04-20T15:45:13.655+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T15:45:13.956+05:30|DEBUG|Profile authenticated successfully
+2023-04-20T15:45:15.748+05:30|DEBUG|Route: auth.post/
+2023-04-20T15:45:16.158+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T15:45:16.423+05:30|DEBUG|Profile authenticated successfully
+2023-04-20T15:59:23.846+05:30|DEBUG|Route: auth.post/
+2023-04-20T15:59:23.861+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T15:59:24.238+05:30|DEBUG|Route: auth.post/
+2023-04-20T15:59:24.239+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T15:59:25.491+05:30|DEBUG|Profile authenticated successfully
+2023-04-20T15:59:25.759+05:30|DEBUG|Profile authenticated successfully
+2023-04-20T15:59:38.552+05:30|DEBUG|Route: auth.post/
+2023-04-20T15:59:38.553+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T15:59:38.955+05:30|DEBUG|Jwt Sign Successfully
+2023-04-20T15:59:40.489+05:30|DEBUG|Route: auth.post/
+2023-04-20T15:59:40.490+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T15:59:40.758+05:30|DEBUG|Profile authenticated successfully
+2023-04-20T15:59:56.260+05:30|DEBUG|Route: auth.post/
+2023-04-20T15:59:56.260+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T15:59:56.260+05:30|ERROR|Please Enter All the data
+2023-04-20T15:59:56.525+05:30|ERROR|User does not exist
+2023-04-20T15:59:56.527+05:30|ERROR|Jwt Sign in Error: : Cannot set headers after they are sent to the client - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:645:11)
+    at ServerResponse.header (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\response.js:267:15)
+    at F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\routes\api\auth.js:55:22
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at process.processImmediate (node:internal/timers:447:9)
+2023-04-20T18:27:42.871+05:30|DEBUG|Route: auth.post/
+2023-04-20T18:27:42.964+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T18:27:44.997+05:30|DEBUG|Jwt Sign Successfully
+2023-04-20T18:27:46.694+05:30|DEBUG|Route: auth.post/
+2023-04-20T18:27:46.694+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T18:27:46.989+05:30|DEBUG|Profile authenticated successfully
+2023-04-20T18:28:09.905+05:30|DEBUG|Route: auth.post/
+2023-04-20T18:28:09.906+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T18:28:10.195+05:30|DEBUG|Profile authenticated successfully
+2023-04-20T18:28:10.617+05:30|DEBUG|Route: auth.post/
+2023-04-20T18:28:10.618+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T18:28:10.912+05:30|DEBUG|Profile authenticated successfully
+2023-04-20T18:35:10.250+05:30|DEBUG|Route: auth.post/
+2023-04-20T18:35:10.251+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T18:35:10.251+05:30|ERROR|Please Enter All the data
+2023-04-20T18:35:12.035+05:30|ERROR|User does not exist
+2023-04-20T18:35:12.053+05:30|ERROR|Jwt Sign in Error: : Cannot set headers after they are sent to the client - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:645:11)
+    at ServerResponse.header (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\response.js:267:15)
+    at F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\routes\api\auth.js:55:22
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at process.processImmediate (node:internal/timers:447:9)
+2023-04-20T18:35:20.665+05:30|DEBUG|Route: auth.post/
+2023-04-20T18:35:20.666+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T18:35:20.666+05:30|ERROR|Please Enter All the data
+2023-04-20T18:35:21.338+05:30|ERROR|User does not exist
+2023-04-20T18:35:21.339+05:30|ERROR|Jwt Sign in Error: : Cannot set headers after they are sent to the client - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:645:11)
+    at ServerResponse.header (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\response.js:267:15)
+    at F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\routes\api\auth.js:55:22
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at process.processImmediate (node:internal/timers:447:9)
+2023-04-20T18:35:29.506+05:30|DEBUG|Route: auth.post/
+2023-04-20T18:35:29.506+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T18:35:29.507+05:30|ERROR|Please Enter All the data
+2023-04-20T18:35:29.785+05:30|ERROR|User does not exist
+2023-04-20T18:35:29.786+05:30|ERROR|Jwt Sign in Error: : Cannot set headers after they are sent to the client - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:645:11)
+    at ServerResponse.header (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\response.js:267:15)
+    at F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\routes\api\auth.js:55:22
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at process.processImmediate (node:internal/timers:447:9)
+2023-04-20T18:35:41.168+05:30|DEBUG|Route: auth.post/
+2023-04-20T18:35:41.168+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-20T18:35:41.169+05:30|ERROR|Please Enter All the data
+2023-04-20T18:35:41.448+05:30|ERROR|User does not exist
+2023-04-20T18:35:41.449+05:30|ERROR|Jwt Sign in Error: : Cannot set headers after they are sent to the client - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:645:11)
+    at ServerResponse.header (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\node_modules\express\lib\response.js:267:15)
+    at F:\HLS_Dev\TrackR\trackRTest-New\trackr-server\routes\api\auth.js:55:22
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at process.processImmediate (node:internal/timers:447:9)

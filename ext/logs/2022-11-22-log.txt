@@ -1,0 +1,40 @@
+2022-11-22T15:49:29.455+05:30|DEBUG|Server started and running at Port + 5000
+2022-11-22T16:16:53.127+05:30|DEBUG|Route: auth.post/
+2022-11-22T16:16:53.127+05:30|DEBUG|Inserting auth record: [object Object]
+2022-11-22T16:16:53.582+05:30|DEBUG|Jwt Sign Successfully
+2022-11-22T16:16:53.860+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2022-11-22T16:16:53.860+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2022-11-22T16:16:53.871+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2022-11-22T16:16:53.871+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2022-11-22T16:16:53.874+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2022-11-22T16:16:53.874+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2022-11-22T16:16:53.884+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2022-11-22T16:16:53.886+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2022-11-22T16:16:53.890+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2022-11-22T16:16:53.891+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2022-11-22T16:16:54.062+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2022-11-22T16:16:54.063+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2022-11-22T16:16:54.919+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2022-11-22T16:16:54.920+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2022-11-22T16:16:54.922+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2022-11-22T16:16:54.922+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2022-11-22T16:16:54.924+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2022-11-22T16:16:54.924+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2022-11-22T16:16:54.927+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2022-11-22T16:16:54.932+05:30|DEBUG|Route: auth.post/
+2022-11-22T16:16:54.932+05:30|DEBUG|Inserting auth record: [object Object]
+2022-11-22T16:16:54.939+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2022-11-22T16:16:54.943+05:30|DEBUG|Profile authenticated successfully
+2022-11-22T16:16:54.980+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2022-11-22T16:16:54.981+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2022-11-22T16:16:54.983+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2022-11-22T16:16:54.984+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2022-11-22T16:16:54.985+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2022-11-22T16:16:54.985+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2022-11-22T16:16:54.987+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2022-11-22T16:16:54.987+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2022-11-22T16:16:54.988+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2022-11-22T16:16:55.002+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2022-11-22T16:16:55.039+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2022-11-22T16:16:55.042+05:30|ERROR|Entity not found
+2022-11-22T18:01:53.514+05:30|DEBUG|Server started and running at Port + 5000

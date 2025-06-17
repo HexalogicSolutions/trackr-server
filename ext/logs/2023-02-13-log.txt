@@ -1,0 +1,264 @@
+2023-02-13T14:58:39.948+05:30|DEBUG|Server started and running at Port + 5000
+2023-02-13T14:59:33.935+05:30|DEBUG|Server started and running at Port + 5000
+2023-02-13T14:59:36.907+05:30|DEBUG|Getting list of all users: 
+2023-02-13T14:59:36.907+05:30|DEBUG|Route: user.get/
+2023-02-13T15:01:15.116+05:30|DEBUG|Getting list of all users: 
+2023-02-13T15:01:15.117+05:30|DEBUG|Route: user.get/
+2023-02-13T15:03:49.054+05:30|DEBUG|Route: auth.post/
+2023-02-13T15:03:49.055+05:30|DEBUG|Inserting auth record: [object Object]
+2023-02-13T15:03:49.410+05:30|DEBUG|Jwt Sign Successfully
+2023-02-13T15:03:49.644+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-02-13T15:03:49.645+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-02-13T15:03:49.662+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-02-13T15:03:49.662+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-02-13T15:03:49.664+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-02-13T15:03:49.664+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-02-13T15:03:49.666+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-02-13T15:03:49.667+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-02-13T15:03:49.908+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-02-13T15:03:49.908+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-02-13T15:03:49.917+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-02-13T15:03:49.917+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-02-13T15:03:49.921+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-02-13T15:03:49.921+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-02-13T15:03:49.923+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-02-13T15:03:49.923+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-02-13T15:03:49.959+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-02-13T15:03:50.545+05:30|DEBUG|Route: auth.post/
+2023-02-13T15:03:50.595+05:30|DEBUG|Inserting auth record: [object Object]
+2023-02-13T15:03:50.670+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-02-13T15:03:50.670+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-02-13T15:03:50.683+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-02-13T15:03:50.685+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-02-13T15:03:50.687+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-02-13T15:03:50.687+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-02-13T15:03:50.688+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-02-13T15:03:50.688+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-02-13T15:03:50.691+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-02-13T15:03:50.691+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-02-13T15:03:50.850+05:30|DEBUG|Profile authenticated successfully
+2023-02-13T15:03:51.255+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-02-13T15:03:51.255+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-02-13T15:03:51.258+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-02-13T15:03:51.258+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-02-13T15:03:51.259+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-02-13T15:03:51.268+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-02-13T15:03:51.268+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-02-13T15:03:51.513+05:30|ERROR|Entity not found
+2023-02-13T15:03:51.697+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-02-13T15:03:51.699+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-02-13T15:04:05.001+05:30|DEBUG|Route: entitytype.get/
+2023-02-13T15:04:05.022+05:30|DEBUG|Inserting entitytype record: undefined
+2023-02-13T15:04:05.249+05:30|DEBUG|Route: entitytype.get/
+2023-02-13T15:04:05.250+05:30|DEBUG|Inserting entitytype record: undefined
+2023-02-13T15:04:09.958+05:30|DEBUG|Route: entity.get/
+2023-02-13T15:04:09.958+05:30|DEBUG|Find entity lines: [object Object]
+2023-02-13T15:04:09.962+05:30|DEBUG|Route: entitysubtype.get/
+2023-02-13T15:04:09.962+05:30|DEBUG|find entitysubtype record: {}
+2023-02-13T15:04:10.284+05:30|DEBUG|Route: entitystatus.get/
+2023-02-13T15:04:10.286+05:30|DEBUG|Getting list of all location: 
+2023-02-13T15:04:10.286+05:30|DEBUG|Route: location.get/
+2023-02-13T15:04:10.591+05:30|DEBUG|Route: entity.get/
+2023-02-13T15:04:10.591+05:30|DEBUG|Find entity lines: [object Object]
+2023-02-13T15:04:32.096+05:30|DEBUG|Getting list of all users: 
+2023-02-13T15:04:32.096+05:30|DEBUG|Route: user.get/
+2023-02-13T15:04:32.415+05:30|DEBUG|Route: groups.get/
+2023-02-13T15:04:32.415+05:30|DEBUG|find record: 
+2023-02-13T15:04:33.494+05:30|DEBUG|Route: groups.get/
+2023-02-13T15:04:33.495+05:30|DEBUG|find record: 
+2023-02-13T15:04:33.749+05:30|DEBUG|Route: groups.get/
+2023-02-13T15:04:33.750+05:30|DEBUG|find record: 
+2023-02-13T15:05:00.612+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-02-13T15:05:00.612+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-02-13T15:05:00.613+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-02-13T15:05:00.613+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-02-13T15:05:00.614+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-02-13T15:05:00.614+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-02-13T15:05:00.616+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-02-13T15:05:00.617+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-02-13T15:05:00.636+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-02-13T15:05:00.636+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-02-13T15:05:00.833+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-02-13T15:05:00.833+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-02-13T15:05:00.836+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-02-13T15:05:00.836+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-02-13T15:05:00.841+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-02-13T15:05:00.842+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-02-13T15:05:00.843+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-02-13T15:05:01.073+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-02-13T15:05:01.121+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-02-13T15:05:01.129+05:30|ERROR|Entity not found
+2023-02-13T15:05:46.944+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-02-13T15:05:46.945+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-02-13T15:05:46.946+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-02-13T15:05:46.946+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-02-13T15:05:46.948+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-02-13T15:05:46.948+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-02-13T15:05:46.949+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-02-13T15:05:46.949+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-02-13T15:05:46.951+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-02-13T15:05:47.166+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-02-13T15:05:47.177+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-02-13T15:07:36.329+05:30|DEBUG|Route: groups.get/
+2023-02-13T15:07:36.347+05:30|DEBUG|find record: 
+2023-02-13T15:07:36.569+05:30|DEBUG|Route: groups.get/
+2023-02-13T15:07:36.569+05:30|DEBUG|find record: 
+2023-02-13T15:07:42.301+05:30|DEBUG|Route: groups.get/:code
+2023-02-13T15:07:42.301+05:30|DEBUG|find group by code: SAL
+2023-02-13T15:07:47.998+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-02-13T15:07:47.998+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-02-13T15:07:48.000+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-02-13T15:07:48.000+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-02-13T15:07:48.001+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-02-13T15:07:48.002+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-02-13T15:07:48.005+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-02-13T15:07:48.008+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-02-13T15:07:48.037+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-02-13T15:07:48.038+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-02-13T15:07:48.220+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-02-13T15:07:48.221+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-02-13T15:07:48.222+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-02-13T15:07:48.222+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-02-13T15:07:48.232+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-02-13T15:07:48.232+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-02-13T15:07:48.234+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-02-13T15:07:48.442+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-02-13T15:07:48.454+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-02-13T15:07:48.527+05:30|ERROR|Entity not found
+2023-02-13T15:30:37.626+05:30|DEBUG|Server started and running at Port + 5000
+2023-02-13T15:35:24.223+05:30|DEBUG|Server started and running at Port + 5000
+2023-02-13T15:36:04.518+05:30|DEBUG|Server started and running at Port + 5000
+2023-02-13T15:36:47.022+05:30|DEBUG|Server started and running at Port + 5000
+2023-02-13T15:36:59.213+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-02-13T15:36:59.213+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-02-13T15:36:59.221+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-02-13T15:36:59.222+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-02-13T15:36:59.224+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-02-13T15:36:59.224+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-02-13T15:36:59.226+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-02-13T15:36:59.227+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-02-13T15:36:59.316+05:30|DEBUG|Route: auth.post/
+2023-02-13T15:36:59.316+05:30|DEBUG|Inserting auth record: [object Object]
+2023-02-13T15:36:59.344+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-02-13T15:36:59.348+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-02-13T15:36:59.356+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-02-13T15:36:59.357+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-02-13T15:36:59.415+05:30|DEBUG|Profile authenticated successfully
+2023-02-13T15:36:59.611+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-02-13T15:36:59.611+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-02-13T15:36:59.613+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-02-13T15:36:59.613+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-02-13T15:36:59.616+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-02-13T15:36:59.616+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-02-13T15:36:59.617+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-02-13T15:36:59.619+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-02-13T15:36:59.623+05:30|DEBUG|Route: auth.post/
+2023-02-13T15:36:59.624+05:30|DEBUG|Inserting auth record: [object Object]
+2023-02-13T15:36:59.633+05:30|DEBUG|Profile authenticated successfully
+2023-02-13T15:36:59.665+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-02-13T15:36:59.666+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-02-13T15:36:59.668+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-02-13T15:36:59.668+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-02-13T15:36:59.669+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-02-13T15:36:59.669+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-02-13T15:36:59.670+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-02-13T15:36:59.671+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-02-13T15:36:59.672+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-02-13T15:36:59.682+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-02-13T15:36:59.700+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-02-13T15:36:59.711+05:30|ERROR|Entity not found
+2023-02-13T15:37:03.690+05:30|DEBUG|Route: groups.get/
+2023-02-13T15:37:03.690+05:30|DEBUG|find record: 
+2023-02-13T15:37:03.698+05:30|DEBUG|Route: groups.get/
+2023-02-13T15:37:03.699+05:30|DEBUG|find record: 
+2023-02-13T15:37:06.600+05:30|DEBUG|Route: entitysubtype.get/
+2023-02-13T15:37:06.600+05:30|DEBUG|find entitysubtype record: {}
+2023-02-13T15:37:06.607+05:30|DEBUG|Route: entitytype.get/
+2023-02-13T15:37:06.607+05:30|DEBUG|Inserting entitytype record: undefined
+2023-02-13T15:37:06.609+05:30|DEBUG|Route: entitysubtype.get/
+2023-02-13T15:37:06.610+05:30|DEBUG|find entitysubtype record: {}
+2023-02-13T15:38:45.686+05:30|DEBUG|Route: groups.get/
+2023-02-13T15:38:45.686+05:30|DEBUG|find record: 
+2023-02-13T15:38:45.692+05:30|DEBUG|Route: groups.get/
+2023-02-13T15:38:45.693+05:30|DEBUG|find record: 
+2023-02-13T15:38:52.817+05:30|DEBUG|Route: groups.get/
+2023-02-13T15:38:52.817+05:30|DEBUG|find record: 
+2023-02-13T15:38:52.823+05:30|DEBUG|Route: groups.get/
+2023-02-13T15:38:52.824+05:30|DEBUG|find record: 
+2023-02-13T15:38:59.653+05:30|DEBUG|Route: groups.get/
+2023-02-13T15:38:59.653+05:30|DEBUG|find record: 
+2023-02-13T15:38:59.659+05:30|DEBUG|Route: groups.get/
+2023-02-13T15:38:59.660+05:30|DEBUG|find record: 
+2023-02-13T15:39:19.567+05:30|DEBUG|Route: groups.post/
+2023-02-13T15:39:19.568+05:30|DEBUG|Inserting groups record: {"code":"DEM","name":"Demo","enabled":false}
+2023-02-13T15:39:19.707+05:30|DEBUG|Group added{
+  _id: 63ea0c4f06e8f61618448c76,
+  grp_company: 'HLS',
+  grp_code: 'DEM',
+  grp_name: 'Demo',
+  grp_enabled: false,
+  __v: 0
+}
+2023-02-13T15:39:19.801+05:30|DEBUG|Route: groups.get/
+2023-02-13T15:39:19.802+05:30|DEBUG|find record: 
+2023-02-13T15:39:19.805+05:30|DEBUG|Route: trace.post/
+2023-02-13T15:39:19.805+05:30|DEBUG|Inserting trace record: {"status":"","order_type":"","order_no":"","user":"GM03","description":"Group record added-DEM","operation":"CREATE","file":"","date_time":"2023-02-13T10:09:19.762Z"}
+2023-02-13T15:39:19.814+05:30|DEBUG|Route: groups.get/
+2023-02-13T15:39:19.814+05:30|DEBUG|find record: 
+2023-02-13T15:39:19.835+05:30|DEBUG|Trace Added{
+  _id: 63ea0c4f06e8f61618448c77,
+  trc_status: '',
+  trc_order_type: '',
+  trc_order_no: '',
+  trc_user: 'GM03',
+  trc_description: 'Group record added-DEM',
+  trc_operation: 'CREATE',
+  trc_file: '',
+  trc_date_time: 2023-02-13T10:09:19.762Z,
+  __v: 0
+}
+2023-02-13T15:39:25.384+05:30|DEBUG|Route: groups.get/:code
+2023-02-13T15:39:25.384+05:30|DEBUG|find group by code: DEM
+2023-02-13T15:39:32.443+05:30|DEBUG|Route: groups.put/
+2023-02-13T15:39:32.443+05:30|DEBUG|Updating group record: {"code":"DEM","name":"Demodemo","enabled":false}
+2023-02-13T15:39:32.476+05:30|DEBUG|Group updated[object Object]
+2023-02-13T15:39:32.569+05:30|DEBUG|Route: groups.get/
+2023-02-13T15:39:32.570+05:30|DEBUG|find record: 
+2023-02-13T15:39:32.575+05:30|DEBUG|Route: groups.get/
+2023-02-13T15:39:32.575+05:30|DEBUG|find record: 
+2023-02-13T15:39:32.695+05:30|DEBUG|Route: trace.post/
+2023-02-13T15:39:32.696+05:30|DEBUG|Inserting trace record: {"status":"","order_type":"","order_no":"","user":"GM03","description":"Group record updated-DEM","operation":"UPDATE","file":"","date_time":"2023-02-13T10:09:32.539Z"}
+2023-02-13T15:39:32.715+05:30|DEBUG|Trace Added{
+  _id: 63ea0c5c06e8f61618448c78,
+  trc_status: '',
+  trc_order_type: '',
+  trc_order_no: '',
+  trc_user: 'GM03',
+  trc_description: 'Group record updated-DEM',
+  trc_operation: 'UPDATE',
+  trc_file: '',
+  trc_date_time: 2023-02-13T10:09:32.539Z,
+  __v: 0
+}
+2023-02-13T15:39:37.548+05:30|DEBUG|Route: groups.delete/:code
+2023-02-13T15:39:37.548+05:30|DEBUG|Delete record: DEM
+2023-02-13T15:39:37.566+05:30|DEBUG|Group deleted successfullyDEM
+2023-02-13T15:39:37.573+05:30|DEBUG|Route: logs.post/
+2023-02-13T15:39:37.573+05:30|DEBUG|Inserting logs record: {"msgType":"DEBUG","logData":"Group record deleted"}
+2023-02-13T15:39:37.573+05:30|DEBUG|Group record deleted
+2023-02-13T15:39:37.574+05:30|DEBUG|Route: groups.get/
+2023-02-13T15:39:37.574+05:30|DEBUG|find record: 
+2023-02-13T15:39:37.576+05:30|DEBUG|Route: trace.post/
+2023-02-13T15:39:37.576+05:30|DEBUG|Inserting trace record: {"status":"","order_type":"","order_no":"","user":"GM03","description":"Group record deletedDEM","operation":"DELETE","file":"","date_time":"2023-02-13T10:09:37.569Z"}
+2023-02-13T15:39:37.589+05:30|DEBUG|Trace Added{
+  _id: 63ea0c6106e8f61618448c79,
+  trc_status: '',
+  trc_order_type: '',
+  trc_order_no: '',
+  trc_user: 'GM03',
+  trc_description: 'Group record deletedDEM',
+  trc_operation: 'DELETE',
+  trc_file: '',
+  trc_date_time: 2023-02-13T10:09:37.569Z,
+  __v: 0
+}

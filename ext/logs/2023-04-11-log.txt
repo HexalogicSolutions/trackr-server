@@ -1,0 +1,718 @@
+2023-04-11T15:34:31.380+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-11T15:35:46.352+05:30|DEBUG|Getting list of all users: 
+2023-04-11T15:35:46.353+05:30|DEBUG|Route: user.get/
+2023-04-11T15:38:22.486+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-11T15:39:24.128+05:30|DEBUG|Getting list of all users: 
+2023-04-11T15:39:24.128+05:30|DEBUG|Route: user.get/
+2023-04-11T15:40:18.868+05:30|DEBUG|Getting list of all users: 
+2023-04-11T15:40:18.869+05:30|DEBUG|Route: user.get/
+2023-04-11T15:40:35.559+05:30|DEBUG|Getting list of all users: 
+2023-04-11T15:40:35.559+05:30|DEBUG|Route: user.get/
+2023-04-11T15:40:49.841+05:30|DEBUG|Route: auth.post/
+2023-04-11T15:40:49.842+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T15:40:50.234+05:30|DEBUG|Jwt Sign Successfully
+2023-04-11T15:40:50.494+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-11T15:40:50.494+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-11T15:40:50.500+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-11T15:40:50.500+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-11T15:40:50.502+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-11T15:40:50.502+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-11T15:40:50.504+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-11T15:40:50.506+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-11T15:40:50.530+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-11T15:40:50.531+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-11T15:40:50.648+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-11T15:40:50.648+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-11T15:40:52.268+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-11T15:40:52.269+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-11T15:40:52.272+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-11T15:40:52.272+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-11T15:40:52.274+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-11T15:40:52.274+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-11T15:40:52.276+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-11T15:40:52.279+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-11T15:40:52.288+05:30|DEBUG|Route: auth.post/
+2023-04-11T15:40:52.288+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T15:40:52.314+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-11T15:40:52.314+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-11T15:40:52.543+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-11T15:40:52.543+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-11T15:40:52.546+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-11T15:40:52.546+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-11T15:40:52.549+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-04-11T15:40:52.549+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-04-11T15:40:52.561+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-04-11T15:40:52.574+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T15:40:52.815+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-11T15:40:52.818+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-11T15:40:52.852+05:30|ERROR|Entity not found
+2023-04-11T15:40:57.992+05:30|DEBUG|Route: entity.get/
+2023-04-11T15:40:57.992+05:30|DEBUG|Find entity lines: [object Object]
+2023-04-11T15:40:58.323+05:30|DEBUG|Getting list of all location: 
+2023-04-11T15:40:58.323+05:30|DEBUG|Route: location.get/
+2023-04-11T15:40:58.327+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-11T15:40:58.327+05:30|DEBUG|find entitysubtype record: {}
+2023-04-11T15:40:58.329+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T15:40:58.686+05:30|DEBUG|Route: entity.get/
+2023-04-11T15:40:58.687+05:30|DEBUG|Find entity lines: [object Object]
+2023-04-11T15:41:07.197+05:30|DEBUG|Route: auth.post/
+2023-04-11T15:41:07.198+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T15:41:07.404+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T15:41:07.404+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T15:41:07.465+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T15:41:07.656+05:30|DEBUG|Route: auth.post/
+2023-04-11T15:41:07.656+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T15:41:07.725+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T15:41:07.725+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T15:41:07.923+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T15:41:11.111+05:30|DEBUG|Route: auth.post/
+2023-04-11T15:41:11.111+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T15:41:11.178+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T15:41:11.178+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T15:41:11.381+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T15:41:11.445+05:30|DEBUG|Route: auth.post/
+2023-04-11T15:41:11.445+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T15:41:11.506+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T15:41:11.506+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T15:41:11.712+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T15:41:14.159+05:30|DEBUG|Getting reports by stocktest: 
+2023-04-11T15:41:14.160+05:30|DEBUG|Route: reports.get/stocktest
+2023-04-11T15:41:30.530+05:30|DEBUG|Route: groups.get/
+2023-04-11T15:41:30.531+05:30|DEBUG|find record: 
+2023-04-11T15:41:30.807+05:30|DEBUG|Route: groups.get/
+2023-04-11T15:41:30.807+05:30|DEBUG|find record: 
+2023-04-11T15:41:35.297+05:30|DEBUG|Route: groups.get/:code
+2023-04-11T15:41:35.297+05:30|DEBUG|find group by code: GX1
+2023-04-11T15:41:46.584+05:30|DEBUG|Route: groups.put/
+2023-04-11T15:41:46.584+05:30|DEBUG|Updating group record: {"code":"GX1","name":"Group NEW","enabled":true}
+2023-04-11T15:41:47.151+05:30|DEBUG|Group updated[object Object]
+2023-04-11T15:41:47.227+05:30|DEBUG|Route: trace.post/
+2023-04-11T15:41:47.228+05:30|DEBUG|Inserting trace record: {"status":"","order_type":"","order_no":"","user":"GM03","description":"Group record updated-GX1","operation":"UPDATE","file":"","date_time":"2023-04-11T10:11:47.222Z"}
+2023-04-11T15:41:47.256+05:30|DEBUG|Route: groups.get/
+2023-04-11T15:41:47.256+05:30|DEBUG|find record: 
+2023-04-11T15:41:47.538+05:30|DEBUG|Route: groups.get/
+2023-04-11T15:41:47.539+05:30|DEBUG|find record: 
+2023-04-11T15:41:47.820+05:30|DEBUG|Trace Added{
+  _id: 64353263b7197e34fc2c9e90,
+  trc_status: '',
+  trc_order_type: '',
+  trc_order_no: '',
+  trc_user: 'GM03',
+  trc_description: 'Group record updated-GX1',
+  trc_operation: 'UPDATE',
+  trc_file: '',
+  trc_date_time: 2023-04-11T10:11:47.222Z,
+  __v: 0
+}
+2023-04-11T15:42:32.654+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-11T15:42:36.330+05:30|DEBUG|Getting list of all users: 
+2023-04-11T15:42:36.331+05:30|DEBUG|Route: user.get/
+2023-04-11T15:42:36.642+05:30|DEBUG|Route: groups.get/
+2023-04-11T15:42:36.643+05:30|DEBUG|find record: 
+2023-04-11T15:42:38.135+05:30|DEBUG|Route: groups.get/
+2023-04-11T15:42:38.136+05:30|DEBUG|find record: 
+2023-04-11T15:42:38.142+05:30|DEBUG|Route: groups.get/
+2023-04-11T15:42:38.143+05:30|DEBUG|find record: 
+2023-04-11T15:42:55.504+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-11T15:42:57.677+05:30|DEBUG|Route: groups.get/
+2023-04-11T15:42:57.678+05:30|DEBUG|find record: 
+2023-04-11T15:42:59.621+05:30|DEBUG|Route: groups.get/
+2023-04-11T15:42:59.622+05:30|DEBUG|find record: 
+2023-04-11T15:43:01.974+05:30|DEBUG|Route: groups.get/:code
+2023-04-11T15:43:01.975+05:30|DEBUG|find group by code: GX1
+2023-04-11T15:43:03.065+05:30|DEBUG|Route: groups.put/
+2023-04-11T15:43:03.068+05:30|DEBUG|Updating group record: {"code":"GX1","name":"Group NEW","enabled":true}
+2023-04-11T15:43:03.623+05:30|DEBUG|Group updated[object Object]
+2023-04-11T15:43:03.711+05:30|DEBUG|Route: groups.get/
+2023-04-11T15:43:03.712+05:30|DEBUG|find record: 
+2023-04-11T15:43:03.991+05:30|DEBUG|Route: groups.get/
+2023-04-11T15:43:03.991+05:30|DEBUG|find record: 
+2023-04-11T15:43:03.999+05:30|DEBUG|Route: trace.post/
+2023-04-11T15:43:04.000+05:30|DEBUG|Inserting trace record: {"status":"","order_type":"","order_no":"","user":"GM03","description":"Group record updated-GX1","operation":"UPDATE","file":"","date_time":"2023-04-11T10:13:03.684Z"}
+2023-04-11T15:43:04.582+05:30|DEBUG|Trace Added{
+  _id: 643532b08bf13627dc3c252d,
+  trc_status: '',
+  trc_order_type: '',
+  trc_order_no: '',
+  trc_user: 'GM03',
+  trc_description: 'Group record updated-GX1',
+  trc_operation: 'UPDATE',
+  trc_file: '',
+  trc_date_time: 2023-04-11T10:13:03.684Z,
+  __v: 0
+}
+2023-04-11T15:46:20.242+05:30|DEBUG|Route: groups.get/:code
+2023-04-11T15:46:20.265+05:30|DEBUG|find group by code: ACC
+2023-04-11T15:46:21.476+05:30|DEBUG|Route: groups.put/
+2023-04-11T15:46:21.477+05:30|DEBUG|Updating group record: {"code":"ACC","name":"Accounts","enabled":true}
+2023-04-11T15:46:22.031+05:30|DEBUG|Group updated[object Object]
+2023-04-11T15:46:22.212+05:30|DEBUG|Route: groups.get/
+2023-04-11T15:46:22.212+05:30|DEBUG|find record: 
+2023-04-11T15:46:22.487+05:30|DEBUG|Route: groups.get/
+2023-04-11T15:46:22.487+05:30|DEBUG|find record: 
+2023-04-11T15:46:22.512+05:30|DEBUG|Route: trace.post/
+2023-04-11T15:46:22.512+05:30|DEBUG|Inserting trace record: {"status":"","order_type":"","order_no":"","user":"GM03","description":"Group record updated-ACC","operation":"UPDATE","file":"","date_time":"2023-04-11T10:16:22.106Z"}
+2023-04-11T15:46:23.087+05:30|DEBUG|Trace Added{
+  _id: 643533768bf13627dc3c252e,
+  trc_status: '',
+  trc_order_type: '',
+  trc_order_no: '',
+  trc_user: 'GM03',
+  trc_description: 'Group record updated-ACC',
+  trc_operation: 'UPDATE',
+  trc_file: '',
+  trc_date_time: 2023-04-11T10:16:22.106Z,
+  __v: 0
+}
+2023-04-11T17:54:19.707+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-11T17:56:17.274+05:30|DEBUG|Route: auth.post/
+2023-04-11T17:56:17.274+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T17:56:17.275+05:30|ERROR|Token not valid : jwt malformed - JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\jsonwebtoken\verify.js:63:17)
+    at F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\routes\api\auth.js:13:27
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:317:13)
+    at F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:275:10)
+2023-04-11T17:56:32.667+05:30|DEBUG|Route: auth.post/
+2023-04-11T17:56:32.667+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T17:56:32.668+05:30|ERROR|Token not valid : jwt malformed - JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\jsonwebtoken\verify.js:63:17)
+    at F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\routes\api\auth.js:13:27
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:317:13)
+    at F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:275:10)
+2023-04-11T17:56:40.117+05:30|DEBUG|Route: auth.post/
+2023-04-11T17:56:40.117+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T17:56:40.117+05:30|ERROR|Token not valid : jwt malformed - JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\jsonwebtoken\verify.js:63:17)
+    at F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\routes\api\auth.js:13:27
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:317:13)
+    at F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:275:10)
+2023-04-11T17:56:48.432+05:30|DEBUG|Route: auth.post/
+2023-04-11T17:56:48.433+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T17:56:48.845+05:30|DEBUG|Jwt Sign Successfully
+2023-04-11T17:56:49.070+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-11T17:56:49.071+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-11T17:56:49.076+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-11T17:56:49.076+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-11T17:56:49.078+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-11T17:56:49.078+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-11T17:56:49.080+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-11T17:56:49.081+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-11T17:56:49.105+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-11T17:56:49.105+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-11T17:56:49.430+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-11T17:56:49.430+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-11T17:56:49.432+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-11T17:56:49.433+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-11T17:56:49.434+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-11T17:56:49.434+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-11T17:56:49.436+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-11T17:56:49.437+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-11T17:56:49.443+05:30|DEBUG|Route: auth.post/
+2023-04-11T17:56:49.444+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T17:56:49.460+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-11T17:56:49.460+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-11T17:56:49.714+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-11T17:56:49.714+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-11T17:56:49.715+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-11T17:56:49.716+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-11T17:56:49.868+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-04-11T17:56:49.869+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-04-11T17:56:49.962+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-04-11T17:56:50.001+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T17:56:50.123+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-11T17:56:50.225+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-11T17:56:50.383+05:30|ERROR|Entity not found
+2023-04-11T17:57:02.068+05:30|DEBUG|Route: groups.get/
+2023-04-11T17:57:02.068+05:30|DEBUG|find record: 
+2023-04-11T17:57:02.350+05:30|DEBUG|Route: groups.get/
+2023-04-11T17:57:02.351+05:30|DEBUG|find record: 
+2023-04-11T17:57:38.444+05:30|DEBUG|Route: entity.get/
+2023-04-11T17:57:38.444+05:30|DEBUG|Find entity lines: [object Object]
+2023-04-11T17:57:38.455+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-11T17:57:38.455+05:30|DEBUG|find entitysubtype record: {}
+2023-04-11T17:57:38.770+05:30|DEBUG|Getting list of all location: 
+2023-04-11T17:57:38.770+05:30|DEBUG|Route: location.get/
+2023-04-11T17:57:38.776+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T17:57:39.369+05:30|DEBUG|Route: entity.get/
+2023-04-11T17:57:39.370+05:30|DEBUG|Find entity lines: [object Object]
+2023-04-11T17:57:42.907+05:30|DEBUG|Route: brand.get/
+2023-04-11T17:57:42.908+05:30|DEBUG|Getting list of all location: 
+2023-04-11T17:57:42.909+05:30|DEBUG|Route: location.get/
+2023-04-11T17:57:42.910+05:30|DEBUG|Route: entitytype.get/
+2023-04-11T17:57:42.910+05:30|DEBUG|Inserting entitytype record: undefined
+2023-04-11T17:57:42.912+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-11T17:57:42.913+05:30|DEBUG|find entitysubtype record: {}
+2023-04-11T17:57:42.914+05:30|DEBUG|Getting list of all unit: 
+2023-04-11T17:57:42.914+05:30|DEBUG|Route: unit.get/
+2023-04-11T17:57:43.230+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T17:57:43.499+05:30|DEBUG|Route: entity.get/:code
+2023-04-11T17:57:46.044+05:30|DEBUG|Route: entity.get/
+2023-04-11T17:57:46.044+05:30|DEBUG|Find entity lines: [object Object]
+2023-04-11T17:57:46.362+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-11T17:57:46.362+05:30|DEBUG|find entitysubtype record: {}
+2023-04-11T17:57:46.364+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T17:57:46.365+05:30|DEBUG|Getting list of all location: 
+2023-04-11T17:57:46.366+05:30|DEBUG|Route: location.get/
+2023-04-11T17:57:46.657+05:30|DEBUG|Route: entity.get/
+2023-04-11T17:57:46.657+05:30|DEBUG|Find entity lines: [object Object]
+2023-04-11T17:57:51.253+05:30|DEBUG|Route: auth.post/
+2023-04-11T17:57:51.253+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T17:57:51.525+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T17:57:51.603+05:30|DEBUG|Route: auth.post/
+2023-04-11T17:57:51.603+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T17:57:51.665+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T17:57:51.665+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T17:57:51.877+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T17:57:54.305+05:30|DEBUG|Route: auth.post/
+2023-04-11T17:57:54.305+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T17:57:54.368+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T17:57:54.369+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T17:57:54.566+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T17:57:54.625+05:30|DEBUG|Route: auth.post/
+2023-04-11T17:57:54.625+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T17:57:54.685+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T17:57:54.685+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T17:57:54.890+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T17:58:04.506+05:30|DEBUG|Getting reports by stocktest: 
+2023-04-11T17:58:04.506+05:30|DEBUG|Route: reports.get/stocktest
+2023-04-11T17:59:33.632+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T17:59:33.632+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T17:59:39.028+05:30|DEBUG|Route: auth.post/
+2023-04-11T17:59:39.029+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T17:59:39.098+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T17:59:39.099+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T17:59:39.300+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T17:59:39.365+05:30|DEBUG|Route: auth.post/
+2023-04-11T17:59:39.365+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T17:59:39.437+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T17:59:39.438+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T17:59:39.638+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:00:08.499+05:30|DEBUG|Route: groups.get/
+2023-04-11T18:00:08.500+05:30|DEBUG|find record: 
+2023-04-11T18:01:24.215+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:01:24.215+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:01:24.223+05:30|DEBUG|Route: groups.get/
+2023-04-11T18:01:24.223+05:30|DEBUG|find record: 
+2023-04-11T18:01:24.480+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:01:24.632+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:01:24.632+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:01:24.759+05:30|DEBUG|Route: groups.get/
+2023-04-11T18:01:24.759+05:30|DEBUG|find record: 
+2023-04-11T18:01:24.894+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:01:25.030+05:30|DEBUG|Route: groups.get/
+2023-04-11T18:01:25.031+05:30|DEBUG|find record: 
+2023-04-11T18:01:31.557+05:30|DEBUG|Route: category.get/
+2023-04-11T18:01:31.557+05:30|DEBUG|Getting category list
+2023-04-11T18:01:31.832+05:30|DEBUG|Route: category.get/
+2023-04-11T18:01:31.832+05:30|DEBUG|Getting category list
+2023-04-11T18:01:33.926+05:30|DEBUG|Route: entitytype.get/
+2023-04-11T18:01:33.927+05:30|DEBUG|Inserting entitytype record: undefined
+2023-04-11T18:01:34.204+05:30|DEBUG|Route: entitytype.get/
+2023-04-11T18:01:34.204+05:30|DEBUG|Inserting entitytype record: undefined
+2023-04-11T18:01:36.500+05:30|DEBUG|Route: entitytype.get/:code
+2023-04-11T18:01:36.500+05:30|DEBUG|find by code : 56
+2023-04-11T18:01:38.532+05:30|DEBUG|Getting list of all location: 
+2023-04-11T18:01:38.533+05:30|DEBUG|Route: location.get/
+2023-04-11T18:01:38.801+05:30|DEBUG|Getting list of all location: 
+2023-04-11T18:01:38.801+05:30|DEBUG|Route: location.get/
+2023-04-11T18:01:38.842+05:30|DEBUG|Getting list of all location area: 
+2023-04-11T18:01:38.842+05:30|DEBUG|Route: locationarea.get/
+2023-04-11T18:01:41.045+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T18:01:41.317+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T18:01:47.704+05:30|DEBUG|Route: entitystatus.put/
+2023-04-11T18:01:47.704+05:30|DEBUG|Updating entitystatus record: undefined
+2023-04-11T18:01:47.712+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T18:01:48.258+05:30|DEBUG|Entity status updated
+2023-04-11T18:01:48.641+05:30|DEBUG|Route: trace.post/
+2023-04-11T18:01:48.641+05:30|DEBUG|Inserting trace record: {"status":"","order_type":"","order_no":"","user":"GM03","description":"Entity status record updated-DMG","operation":"UPDATE","file":"","date_time":"2023-04-11T12:31:48.326Z"}
+2023-04-11T18:01:49.212+05:30|DEBUG|Trace Added{
+  _id: 64355334c03110240c00010d,
+  trc_status: '',
+  trc_order_type: '',
+  trc_order_no: '',
+  trc_user: 'GM03',
+  trc_description: 'Entity status record updated-DMG',
+  trc_operation: 'UPDATE',
+  trc_file: '',
+  trc_date_time: 2023-04-11T12:31:48.326Z,
+  __v: 0
+}
+2023-04-11T18:01:49.760+05:30|DEBUG|Route: entitystatus.put/
+2023-04-11T18:01:49.760+05:30|DEBUG|Updating entitystatus record: undefined
+2023-04-11T18:01:49.766+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T18:01:50.287+05:30|DEBUG|Entity status updated
+2023-04-11T18:01:50.659+05:30|DEBUG|Route: trace.post/
+2023-04-11T18:01:50.660+05:30|DEBUG|Inserting trace record: {"status":"","order_type":"","order_no":"","user":"GM03","description":"Entity status record updated-DMG","operation":"UPDATE","file":"","date_time":"2023-04-11T12:31:50.339Z"}
+2023-04-11T18:01:51.217+05:30|DEBUG|Trace Added{
+  _id: 64355336c03110240c00010e,
+  trc_status: '',
+  trc_order_type: '',
+  trc_order_no: '',
+  trc_user: 'GM03',
+  trc_description: 'Entity status record updated-DMG',
+  trc_operation: 'UPDATE',
+  trc_file: '',
+  trc_date_time: 2023-04-11T12:31:50.339Z,
+  __v: 0
+}
+2023-04-11T18:02:11.576+05:30|DEBUG|Route: entitytype.get/
+2023-04-11T18:02:11.577+05:30|DEBUG|Inserting entitytype record: undefined
+2023-04-11T18:02:11.850+05:30|DEBUG|Route: entitytype.get/
+2023-04-11T18:02:11.851+05:30|DEBUG|Inserting entitytype record: undefined
+2023-04-11T18:02:13.359+05:30|DEBUG|Route: groups.get/
+2023-04-11T18:02:13.359+05:30|DEBUG|find record: 
+2023-04-11T18:02:13.636+05:30|DEBUG|Route: groups.get/
+2023-04-11T18:02:13.637+05:30|DEBUG|find record: 
+2023-04-11T18:02:23.849+05:30|DEBUG|Route: groups.get/
+2023-04-11T18:02:23.849+05:30|DEBUG|find record: 
+2023-04-11T18:02:24.114+05:30|DEBUG|Route: groups.get/
+2023-04-11T18:02:24.115+05:30|DEBUG|find record: 
+2023-04-11T18:03:04.232+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:03:04.232+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:03:04.233+05:30|ERROR|Token not valid : jwt malformed - JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\jsonwebtoken\verify.js:63:17)
+    at F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\routes\api\auth.js:13:27
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:317:13)
+    at F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:275:10)
+2023-04-11T18:03:04.324+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:03:04.324+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:03:05.525+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:03:05.525+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:03:05.526+05:30|ERROR|Token not valid : jwt malformed - JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\jsonwebtoken\verify.js:63:17)
+    at F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\routes\api\auth.js:13:27
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:317:13)
+    at F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest-110423_1800\trackr-server\node_modules\express\lib\router\index.js:275:10)
+2023-04-11T18:03:05.808+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:03:05.809+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:03:17.572+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:03:17.573+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:03:17.957+05:30|ERROR|Invalid Credentials
+2023-04-11T18:03:23.829+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:03:23.829+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:03:24.189+05:30|DEBUG|Jwt Sign Successfully
+2023-04-11T18:03:24.315+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-11T18:03:24.315+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-11T18:03:24.317+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-11T18:03:24.317+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-11T18:03:24.318+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-11T18:03:24.319+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-11T18:03:24.320+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-11T18:03:24.323+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-11T18:03:24.373+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-11T18:03:24.373+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-11T18:03:24.985+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-11T18:03:24.986+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-11T18:03:24.987+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-11T18:03:24.987+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-11T18:03:24.988+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-11T18:03:24.989+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-11T18:03:24.991+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-11T18:03:24.993+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-11T18:03:24.998+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:03:24.998+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:03:25.029+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-11T18:03:25.030+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-11T18:03:25.249+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-11T18:03:25.249+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-11T18:03:25.252+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-11T18:03:25.252+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-11T18:03:25.258+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-04-11T18:03:25.258+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-04-11T18:03:25.265+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-04-11T18:03:25.267+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:03:25.509+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-11T18:03:25.523+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-11T18:03:25.570+05:30|ERROR|Entity not found
+2023-04-11T18:03:31.989+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:03:31.989+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:03:32.077+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:03:32.077+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:03:32.260+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:03:32.532+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:03:32.533+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:03:32.662+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:03:32.662+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:03:32.792+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:07:10.115+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-11T18:09:39.451+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:09:39.451+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:09:39.844+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:09:39.845+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:09:39.922+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:09:39.944+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:09:39.944+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:09:39.948+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:09:39.955+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:09:39.956+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:10:43.919+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-11T18:10:47.141+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-11T18:10:47.943+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:10:47.944+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:10:47.968+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:10:49.242+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:10:49.242+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:10:49.247+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:11:12.654+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-11T18:11:13.138+05:30|DEBUG|Route: groups.get/
+2023-04-11T18:11:13.138+05:30|DEBUG|find record: 
+2023-04-11T18:11:13.195+05:30|DEBUG|Route: groups.get/
+2023-04-11T18:11:13.195+05:30|DEBUG|find record: 
+2023-04-11T18:11:14.049+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:11:14.049+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:11:14.059+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:11:14.113+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:11:14.114+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:11:15.419+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:11:15.419+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:11:15.423+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:11:15.423+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:11:15.426+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:13:05.404+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:13:05.430+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:13:05.436+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:13:05.505+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:13:05.505+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:13:06.063+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:13:06.063+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:13:06.068+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:13:06.179+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:13:06.179+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:15:11.242+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-11T18:15:14.217+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-11T18:15:14.218+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-11T18:15:14.223+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-11T18:15:14.224+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-11T18:15:14.225+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-11T18:15:14.226+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-11T18:15:14.227+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-11T18:15:14.229+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-11T18:15:14.235+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-11T18:15:14.235+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-11T18:15:15.432+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-11T18:15:15.433+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-11T18:15:15.436+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-11T18:15:15.436+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-11T18:15:15.438+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-04-11T18:15:15.438+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-04-11T18:15:15.440+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-04-11T18:15:15.471+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-11T18:15:15.472+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-11T18:15:15.539+05:30|ERROR|Entity not found
+2023-04-11T18:15:23.512+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:15:23.513+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:15:23.527+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:15:23.527+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:15:23.551+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:15:23.830+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:15:23.831+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:15:23.835+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:15:23.926+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:15:23.926+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:17:36.462+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-11T18:17:54.880+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:17:54.881+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:17:54.907+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:17:54.908+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:17:54.939+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:17:55.460+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:17:55.461+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:17:55.464+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:17:55.464+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:17:55.467+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:18:41.562+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-11T18:18:44.994+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:18:44.995+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:18:45.022+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:18:45.022+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:18:45.054+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:18:45.638+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:18:45.638+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:18:45.641+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:18:45.642+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:18:45.644+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:18:45.859+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-11T18:18:45.859+05:30|DEBUG|find entitysubtype record: {}
+2023-04-11T18:18:45.919+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T18:19:49.343+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-11T18:19:51.502+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:19:51.503+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:19:51.549+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:19:51.549+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:19:51.561+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:19:52.024+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:19:52.024+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:19:52.027+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:19:52.027+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:19:52.030+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:20:51.595+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-11T18:21:11.835+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-11T18:21:13.798+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-11T18:21:16.081+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:21:16.082+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:21:16.107+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:21:16.107+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:21:16.140+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:21:16.612+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:21:16.612+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:21:16.615+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:21:16.616+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:21:16.618+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:21:16.826+05:30|DEBUG|Get Material
+2023-04-11T18:21:16.868+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-11T18:21:16.869+05:30|DEBUG|find entitysubtype record: {}
+2023-04-11T18:21:16.912+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T18:21:21.919+05:30|DEBUG|Getting sales by sale-report: 
+2023-04-11T18:21:21.919+05:30|DEBUG|Route: sales.get/sale-report
+2023-04-11T18:21:27.715+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:21:27.716+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:21:27.785+05:30|DEBUG|Get Material
+2023-04-11T18:21:27.802+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-11T18:21:27.803+05:30|DEBUG|find entitysubtype record: {}
+2023-04-11T18:21:27.821+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T18:21:32.099+05:30|DEBUG|Getting sales by sale-report: 
+2023-04-11T18:21:32.099+05:30|DEBUG|Route: sales.get/sale-report
+2023-04-11T18:21:33.587+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:21:33.587+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:21:33.641+05:30|DEBUG|Get Material
+2023-04-11T18:21:33.658+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-11T18:21:33.659+05:30|DEBUG|find entitysubtype record: {}
+2023-04-11T18:21:33.678+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T18:21:47.667+05:30|DEBUG|Getting sales by sale-report: 
+2023-04-11T18:21:47.667+05:30|DEBUG|Route: sales.get/sale-report
+2023-04-11T18:21:49.444+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:21:49.444+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:21:49.501+05:30|DEBUG|Get Material
+2023-04-11T18:21:49.518+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-11T18:21:49.518+05:30|DEBUG|find entitysubtype record: {}
+2023-04-11T18:21:49.534+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T18:22:11.178+05:30|DEBUG|Getting sales by sale-report: 
+2023-04-11T18:22:11.179+05:30|DEBUG|Route: sales.get/sale-report
+2023-04-11T18:22:25.470+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:22:25.471+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:22:25.521+05:30|DEBUG|Get Material
+2023-04-11T18:22:25.538+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-11T18:22:25.539+05:30|DEBUG|find entitysubtype record: {}
+2023-04-11T18:22:25.555+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T18:22:37.560+05:30|DEBUG|Getting sales by sale-report: 
+2023-04-11T18:22:37.560+05:30|DEBUG|Route: sales.get/sale-report
+2023-04-11T18:22:39.004+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:22:39.005+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:22:39.059+05:30|DEBUG|Get Material
+2023-04-11T18:22:39.076+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-11T18:22:39.076+05:30|DEBUG|find entitysubtype record: {}
+2023-04-11T18:22:39.094+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T18:22:46.626+05:30|DEBUG|Getting sales by sale-report: 
+2023-04-11T18:22:46.626+05:30|DEBUG|Route: sales.get/sale-report
+2023-04-11T18:22:48.419+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:22:48.420+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:22:48.486+05:30|DEBUG|Get Material
+2023-04-11T18:22:48.508+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-11T18:22:48.509+05:30|DEBUG|find entitysubtype record: {}
+2023-04-11T18:22:48.524+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T18:23:04.074+05:30|DEBUG|Getting sales by sale-report: 
+2023-04-11T18:23:04.074+05:30|DEBUG|Route: sales.get/sale-report
+2023-04-11T18:23:06.282+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:23:06.282+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:23:06.333+05:30|DEBUG|Get Material
+2023-04-11T18:23:06.350+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-11T18:23:06.351+05:30|DEBUG|find entitysubtype record: {}
+2023-04-11T18:23:06.366+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T18:23:12.282+05:30|DEBUG|Getting sales by sale-report: 
+2023-04-11T18:23:12.283+05:30|DEBUG|Route: sales.get/sale-report
+2023-04-11T18:23:26.404+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:23:26.404+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:23:26.457+05:30|DEBUG|Get Material
+2023-04-11T18:23:26.471+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-11T18:23:26.471+05:30|DEBUG|find entitysubtype record: {}
+2023-04-11T18:23:26.485+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T18:23:36.504+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:23:36.504+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:23:36.510+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:23:36.590+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:23:36.590+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:23:36.916+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:23:36.916+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:23:36.919+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:23:37.107+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:23:37.107+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:23:37.235+05:30|DEBUG|Get Material
+2023-04-11T18:23:37.275+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-11T18:23:37.275+05:30|DEBUG|find entitysubtype record: {}
+2023-04-11T18:23:37.308+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T18:23:39.901+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:23:39.901+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:23:39.905+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:23:39.963+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:23:39.964+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:23:40.232+05:30|DEBUG|Route: auth.post/
+2023-04-11T18:23:40.232+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-11T18:23:40.235+05:30|DEBUG|Profile authenticated successfully
+2023-04-11T18:23:40.291+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-11T18:23:40.291+05:30|DEBUG|Route: warehouse.get/
+2023-04-11T18:23:40.426+05:30|DEBUG|Get Material
+2023-04-11T18:23:40.448+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-11T18:23:40.448+05:30|DEBUG|find entitysubtype record: {}
+2023-04-11T18:23:40.472+05:30|DEBUG|Route: entitystatus.get/
+2023-04-11T18:23:45.489+05:30|DEBUG|Getting reports by stocktest: 
+2023-04-11T18:23:45.489+05:30|DEBUG|Route: reports.get/stocktest

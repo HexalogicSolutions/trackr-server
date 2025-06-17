@@ -1,0 +1,78 @@
+const mongoose = require('mongoose')
+const Schema = mongoose.Schema;
+
+// Create new schema
+const EntitySchema = new Schema({
+    // _id: mongoose.ObjectId,
+    ent_company : {
+        type : String,
+        required : true
+    },
+    ent_code : {
+        type : String,
+        required : true,
+
+    },
+    ent_extcode : {
+        type : String,
+    },
+    ent_serial : {
+        type : String,     
+    },
+    ent_epc: {
+        type : String,
+    
+    },
+    ent_desc : {
+        type : String,
+       
+    },
+    ent_material : {
+        type : String,
+       
+    },
+    ent_type: {
+        type : Number,
+    
+    },
+    ent_subtype : {
+        type : Number,
+     
+    },
+    ent_brand: {
+        type : String,
+    
+    },
+    ent_status : {
+        type : String,
+    },
+    ent_warehouse: {
+        type : Number,
+    
+    },
+    ent_area: {
+        type : Number,
+    
+    },
+    ent_location: {
+        type : Number,
+    
+    },
+    ent_weight: {
+        type : Number,
+    
+    },
+    ent_purity: {
+        type : Number,
+    },
+    ent_lastseen : {
+        type : Date,
+       
+    },
+    ent_duration: {
+        type : Number,
+     
+    }
+})
+
+module.exports = Entity = mongoose.model('entity', EntitySchema ,'entity');

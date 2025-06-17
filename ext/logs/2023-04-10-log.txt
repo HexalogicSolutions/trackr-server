@@ -1,0 +1,1562 @@
+2023-04-10T17:31:39.808+05:30|DEBUG|Server started and running at Port + 5000
+2023-04-10T17:32:22.652+05:30|DEBUG|Getting list of all users: 
+2023-04-10T17:32:22.652+05:30|DEBUG|Route: user.get/
+2023-04-10T17:33:48.147+05:30|DEBUG|Route: auth.post/
+2023-04-10T17:33:48.148+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-10T17:33:48.149+05:30|ERROR|Token not valid : jwt malformed - JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\jsonwebtoken\verify.js:63:17)
+    at F:\HLS_Dev\TrackR\trackRTest\trackr-server\routes\api\auth.js:13:27
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:317:13)
+    at F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:275:10)
+2023-04-10T17:33:54.806+05:30|DEBUG|Route: auth.post/
+2023-04-10T17:33:54.806+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-10T17:33:54.807+05:30|ERROR|Token not valid : jwt malformed - JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\jsonwebtoken\verify.js:63:17)
+    at F:\HLS_Dev\TrackR\trackRTest\trackr-server\routes\api\auth.js:13:27
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:317:13)
+    at F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:275:10)
+2023-04-10T17:34:02.893+05:30|DEBUG|Route: auth.post/
+2023-04-10T17:34:02.893+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-10T17:34:03.361+05:30|DEBUG|Jwt Sign Successfully
+2023-04-10T17:34:03.545+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-10T17:34:03.545+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-10T17:34:03.550+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-10T17:34:03.551+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-10T17:34:03.552+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-10T17:34:03.552+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-10T17:34:03.554+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-10T17:34:03.556+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-10T17:34:03.583+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-10T17:34:03.583+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-10T17:34:03.932+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-10T17:34:03.932+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-10T17:34:03.934+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-10T17:34:03.934+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-10T17:34:03.937+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-10T17:34:03.938+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-10T17:34:03.939+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-10T17:34:03.941+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-10T17:34:03.947+05:30|DEBUG|Route: auth.post/
+2023-04-10T17:34:03.948+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-10T17:34:03.966+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-10T17:34:03.967+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-10T17:34:04.574+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-10T17:34:04.574+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-10T17:34:04.577+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-10T17:34:04.578+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-10T17:34:04.584+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-04-10T17:34:04.584+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-04-10T17:34:04.587+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-04-10T17:34:04.592+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-10T17:34:04.593+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-10T17:34:04.670+05:30|DEBUG|Profile authenticated successfully
+2023-04-10T17:34:04.769+05:30|ERROR|Entity not found
+2023-04-10T17:34:12.067+05:30|DEBUG|Route: groups.get/
+2023-04-10T17:34:12.067+05:30|DEBUG|find record: 
+2023-04-10T17:34:12.088+05:30|DEBUG|Route: groups.get/
+2023-04-10T17:34:12.089+05:30|DEBUG|find record: 
+2023-04-10T17:34:16.147+05:30|DEBUG|Route: groups.get/:code
+2023-04-10T17:34:16.147+05:30|DEBUG|find group by code: GM03
+2023-04-10T17:34:17.769+05:30|DEBUG|Route: groups.put/
+2023-04-10T17:34:17.769+05:30|DEBUG|Updating group record: {"code":"GM03","name":"Test User123","enabled":true}
+2023-04-10T17:34:17.814+05:30|DEBUG|Group updated[object Object]
+2023-04-10T17:34:17.917+05:30|DEBUG|Route: groups.get/
+2023-04-10T17:34:17.918+05:30|DEBUG|find record: 
+2023-04-10T17:34:17.928+05:30|DEBUG|Route: groups.get/
+2023-04-10T17:34:17.929+05:30|DEBUG|find record: 
+2023-04-10T17:34:18.034+05:30|DEBUG|Route: trace.post/
+2023-04-10T17:34:18.034+05:30|DEBUG|Inserting trace record: {"status":"","order_type":"","order_no":"","user":"GM03","description":"Group record updated-GM03","operation":"UPDATE","file":"","date_time":"2023-04-10T12:04:17.880Z"}
+2023-04-10T17:34:18.140+05:30|DEBUG|Trace Added{
+  _id: 6433fb421c7c3e39286937ca,
+  trc_status: '',
+  trc_order_type: '',
+  trc_order_no: '',
+  trc_user: 'GM03',
+  trc_description: 'Group record updated-GM03',
+  trc_operation: 'UPDATE',
+  trc_file: '',
+  trc_date_time: 2023-04-10T12:04:17.880Z,
+  __v: 0
+}
+2023-04-10T17:34:27.497+05:30|DEBUG|Route: auth.post/
+2023-04-10T17:34:27.497+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-10T17:34:27.498+05:30|ERROR|Token not valid : jwt malformed - JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\jsonwebtoken\verify.js:63:17)
+    at F:\HLS_Dev\TrackR\trackRTest\trackr-server\routes\api\auth.js:13:27
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:317:13)
+    at F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:275:10)
+2023-04-10T17:34:27.575+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-10T17:34:27.575+05:30|DEBUG|Route: warehouse.get/
+2023-04-10T17:34:27.841+05:30|DEBUG|Route: auth.post/
+2023-04-10T17:34:27.841+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-10T17:34:27.841+05:30|ERROR|Token not valid : jwt malformed - JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\jsonwebtoken\verify.js:63:17)
+    at F:\HLS_Dev\TrackR\trackRTest\trackr-server\routes\api\auth.js:13:27
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:317:13)
+    at F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\HLS_Dev\TrackR\trackRTest\trackr-server\node_modules\express\lib\router\index.js:275:10)
+2023-04-10T17:34:27.904+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-10T17:34:27.904+05:30|DEBUG|Route: warehouse.get/
+2023-04-10T17:34:41.261+05:30|DEBUG|Route: auth.post/
+2023-04-10T17:34:41.262+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-10T17:34:41.353+05:30|DEBUG|Jwt Sign Successfully
+2023-04-10T17:34:41.462+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-10T17:34:41.462+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-10T17:34:41.465+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-10T17:34:41.465+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-10T17:34:41.466+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-10T17:34:41.466+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-10T17:34:41.469+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-10T17:34:41.469+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-10T17:34:41.504+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-10T17:34:41.505+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-10T17:34:41.506+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-10T17:34:41.506+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-10T17:34:41.507+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-10T17:34:41.507+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-10T17:34:41.513+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-04-10T17:34:41.513+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-04-10T17:34:41.515+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-10T17:34:41.515+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-10T17:34:41.521+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-04-10T17:34:41.525+05:30|ERROR|Entity not found
+2023-04-10T17:34:41.822+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-10T17:34:41.823+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-10T17:34:41.824+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-10T17:34:41.824+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-10T17:34:41.825+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-10T17:34:41.825+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-10T17:34:41.828+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-10T17:34:41.831+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-10T17:34:41.838+05:30|DEBUG|Route: auth.post/
+2023-04-10T17:34:41.839+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-10T17:34:41.842+05:30|DEBUG|Profile authenticated successfully
+2023-04-10T17:34:41.863+05:30|DEBUG|Getting sales by sale-quantity-by-material: 
+2023-04-10T17:34:41.863+05:30|DEBUG|Route: sales.get/sale-quantity-by-material
+2023-04-10T17:34:41.865+05:30|DEBUG|Getting sales by sale-quantity-by-subtype : 
+2023-04-10T17:34:41.865+05:30|DEBUG|Route: sales.get/sale-quantity-by-subtype
+2023-04-10T17:34:41.866+05:30|DEBUG|Getting sales by sale-amount-by-subtype: 
+2023-04-10T17:34:41.866+05:30|DEBUG|Route: sales.get/sale-amount-by-subtype
+2023-04-10T17:34:41.867+05:30|DEBUG|Getting sales by sale-amount-by-material: 
+2023-04-10T17:34:41.867+05:30|DEBUG|Route: sales.get/sale-amount-by-material
+2023-04-10T17:34:41.867+05:30|DEBUG|Route: entity.get/current-stock-by-material
+2023-04-10T17:34:41.870+05:30|DEBUG|Route: entity.get/current-stock-by-subtype
+2023-04-10T17:34:41.874+05:30|DEBUG|Route: entity.get/current-stock-by-status
+2023-04-10T17:34:41.880+05:30|ERROR|Entity not found
+2023-04-10T17:34:46.836+05:30|DEBUG|Route: auth.post/
+2023-04-10T17:34:46.837+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-10T17:34:46.841+05:30|DEBUG|Profile authenticated successfully
+2023-04-10T17:34:46.899+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-10T17:34:46.900+05:30|DEBUG|Route: warehouse.get/
+2023-04-10T17:34:47.122+05:30|DEBUG|Route: auth.post/
+2023-04-10T17:34:47.123+05:30|DEBUG|Inserting auth record: [object Object]
+2023-04-10T17:34:47.127+05:30|DEBUG|Profile authenticated successfully
+2023-04-10T17:34:47.187+05:30|DEBUG|Getting list of all warehouse: 
+2023-04-10T17:34:47.187+05:30|DEBUG|Route: warehouse.get/
+2023-04-10T17:35:00.421+05:30|DEBUG|Route: handheld.get/hh-report
+2023-04-10T17:35:00.421+05:30|DEBUG|find  record: 
+2023-04-10T17:35:30.341+05:30|DEBUG|Route: entitytype.get/
+2023-04-10T17:35:30.342+05:30|DEBUG|Inserting entitytype record: undefined
+2023-04-10T17:35:30.385+05:30|DEBUG|Route: entitytype.get/
+2023-04-10T17:35:30.386+05:30|DEBUG|Inserting entitytype record: undefined
+2023-04-10T17:35:33.552+05:30|DEBUG|Route: entitystatus.get/
+2023-04-10T17:35:33.558+05:30|DEBUG|Route: entitystatus.get/
+2023-04-10T17:35:37.873+05:30|DEBUG|Route: entity.get/
+2023-04-10T17:35:37.873+05:30|DEBUG|Find entity lines: [object Object]
+2023-04-10T17:35:37.907+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-10T17:35:37.907+05:30|DEBUG|find entitysubtype record: {}
+2023-04-10T17:35:37.909+05:30|DEBUG|Route: entitystatus.get/
+2023-04-10T17:35:37.910+05:30|DEBUG|Getting list of all location: 
+2023-04-10T17:35:37.910+05:30|DEBUG|Route: location.get/
+2023-04-10T17:35:37.913+05:30|DEBUG|Route: entity.get/
+2023-04-10T17:35:37.913+05:30|DEBUG|Find entity lines: [object Object]
+2023-04-10T17:35:48.140+05:30|DEBUG|Route: entity.get/
+2023-04-10T17:35:48.140+05:30|DEBUG|Find entity lines: [object Object]
+2023-04-10T17:35:48.164+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-10T17:35:48.164+05:30|DEBUG|find entitysubtype record: {}
+2023-04-10T17:35:48.166+05:30|DEBUG|Route: entitystatus.get/
+2023-04-10T17:35:48.167+05:30|DEBUG|Route: entity.get/
+2023-04-10T17:35:48.168+05:30|DEBUG|Find entity lines: [object Object]
+2023-04-10T17:35:48.457+05:30|DEBUG|Getting list of all location: 
+2023-04-10T17:35:48.458+05:30|DEBUG|Route: location.get/
+2023-04-10T17:35:50.521+05:30|DEBUG|Route: brand.get/
+2023-04-10T17:35:50.523+05:30|DEBUG|Route: entitytype.get/
+2023-04-10T17:35:50.524+05:30|DEBUG|Inserting entitytype record: undefined
+2023-04-10T17:35:50.526+05:30|DEBUG|Getting list of all location: 
+2023-04-10T17:35:50.527+05:30|DEBUG|Route: location.get/
+2023-04-10T17:35:50.528+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-10T17:35:50.528+05:30|DEBUG|find entitysubtype record: {}
+2023-04-10T17:35:50.529+05:30|DEBUG|Getting list of all unit: 
+2023-04-10T17:35:50.529+05:30|DEBUG|Route: unit.get/
+2023-04-10T17:35:50.855+05:30|DEBUG|Route: entitystatus.get/
+2023-04-10T17:35:50.859+05:30|DEBUG|Route: entity.get/:code
+2023-04-10T17:35:52.778+05:30|DEBUG|Route: entity.get/
+2023-04-10T17:35:52.779+05:30|DEBUG|Find entity lines: [object Object]
+2023-04-10T17:35:52.804+05:30|DEBUG|Route: entity.get/
+2023-04-10T17:35:52.804+05:30|DEBUG|Find entity lines: [object Object]
+2023-04-10T17:35:53.091+05:30|DEBUG|Route: entitysubtype.get/
+2023-04-10T17:35:53.092+05:30|DEBUG|find entitysubtype record: {}
+2023-04-10T17:35:53.093+05:30|DEBUG|Route: entitystatus.get/
+2023-04-10T17:35:53.094+05:30|DEBUG|Getting list of all location: 
+2023-04-10T17:35:53.094+05:30|DEBUG|Route: location.get/
+2023-04-10T17:36:13.270+05:30|DEBUG|Route: actiongroup.get/find
+2023-04-10T17:36:13.297+05:30|DEBUG|Entity Find{
+  _id: 5f9d27a656c8041ee0c2a9d9,
+  ent_company: 'HLS',
+  ent_code: '10026',
+  ent_extcode: 'GR26',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Silver Ring T24',
+  ent_material: 'SIL',
+  ent_type: 56,
+  ent_subtype: 13,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 12,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9cb,
+  ent_company: 'HLS',
+  ent_code: '10011',
+  ent_extcode: 'GR11',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Gold Bangles T01',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 17,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 8,
+  ent_location: 13,
+  ent_weight: 22.25,
+  ent_purity: 23.1,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9c5,
+  ent_company: 'HLS',
+  ent_code: '10005',
+  ent_extcode: 'GR05',
+  ent_serial: '10001005',
+  ent_epc: '000000000000000010001005',
+  ent_desc: 'Diamond Bracelet T04',
+  ent_material: 'DMD',
+  ent_type: 56,
+  ent_subtype: 14,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 12,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9c4,
+  ent_company: 'HLS',
+  ent_code: '10004',
+  ent_extcode: 'GR04',
+  ent_serial: '10001004',
+  ent_epc: '000000000000000010001004',
+  ent_desc: 'Gold Bangles T01',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 17,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 14,
+  ent_weight: 12.5,
+  ent_purity: 22.3,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9e8,
+  ent_company: 'HLS',
+  ent_code: '10041',
+  ent_extcode: 'GR41',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Diamond Necklace T39',
+  ent_material: 'DMD',
+  ent_type: 56,
+  ent_subtype: 15,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 14,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9f0,
+  ent_company: 'HLS',
+  ent_code: '10049',
+  ent_extcode: 'GR49',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Platinum Bracelet T47',
+  ent_material: 'PLT',
+  ent_type: 56,
+  ent_subtype: 14,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 14,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9cd,
+  ent_company: 'HLS',
+  ent_code: '10013',
+  ent_extcode: 'GR13',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Gold Chain T12',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 12,
+  ent_brand: 'TAN',
+  ent_status: 'SLD',
+  ent_warehouse: 17,
+  ent_area: 8,
+  ent_location: 13,
+  ent_weight: 2.5,
+  ent_purity: 23.1,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9f2,
+  ent_company: 'HLS',
+  ent_code: '10097',
+  ent_extcode: 'GR97',
+  ent_serial: '10010097',
+  ent_epc: '000000000000000010010097',
+  ent_desc: 'Gold Chain T97',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 12,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 15,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 25357,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9dc,
+  ent_company: 'HLS',
+  ent_code: '10029',
+  ent_extcode: 'GR29',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Platinum Ring T27',
+  ent_material: 'PLT',
+  ent_type: 56,
+  ent_subtype: 13,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 14,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9e1,
+  ent_company: 'HLS',
+  ent_code: '10034',
+  ent_extcode: 'GR34',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Gold Necklace T32',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 15,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 12,
+  ent_weight: 40.5,
+  ent_purity: 16.5,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9ea,
+  ent_company: 'HLS',
+  ent_code: '10043',
+  ent_extcode: 'GR43',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Gold Earring T41',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 16,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 16,
+  ent_weight: 2.5,
+  ent_purity: 22.5,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9e3,
+  ent_company: 'HLS',
+  ent_code: '10036',
+  ent_extcode: 'GR36',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Gold Necklace T34',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 15,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 16,
+  ent_weight: 45.87,
+  ent_purity: 22.5,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9c3,
+  ent_company: 'HLS',
+  ent_code: '10003',
+  ent_extcode: 'GR03',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Gold Ring T01',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 13,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 8,
+  ent_location: 13,
+  ent_weight: 2.2,
+  ent_purity: 18.5,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9cc,
+  ent_company: 'HLS',
+  ent_code: '10012',
+  ent_extcode: 'GR12',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Gold Chain T11',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 12,
+  ent_brand: 'TAN',
+  ent_status: 'SLD',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 17,
+  ent_weight: 5.5,
+  ent_purity: 23.1,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9d7,
+  ent_company: 'HLS',
+  ent_code: '10024',
+  ent_extcode: 'GR24',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Diamond Ring T22',
+  ent_material: 'DMD',
+  ent_type: 56,
+  ent_subtype: 13,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 16,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9dd,
+  ent_company: 'HLS',
+  ent_code: '10030',
+  ent_extcode: 'GR30',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Diamond Bangles T28',
+  ent_material: 'DMD',
+  ent_type: 56,
+  ent_subtype: 17,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 12,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9e0,
+  ent_company: 'HLS',
+  ent_code: '10033',
+  ent_extcode: 'GR33',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Gold Necklace T31',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 15,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 14,
+  ent_weight: 35.5,
+  ent_purity: 16.5,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9e6,
+  ent_company: 'HLS',
+  ent_code: '10039',
+  ent_extcode: 'GR39',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Diamond Necklace T37',
+  ent_material: 'DMD',
+  ent_type: 56,
+  ent_subtype: 15,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 14,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9eb,
+  ent_company: 'HLS',
+  ent_code: '10044',
+  ent_extcode: 'GR44',
+  ent_serial: '10010044',
+  ent_epc: '000000000000000010010044',
+  ent_desc: 'Gold Earring T42',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 16,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 16,
+  ent_weight: 4.6,
+  ent_purity: 22.5,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9ec,
+  ent_company: 'HLS',
+  ent_code: '10045',
+  ent_extcode: 'GR45',
+  ent_serial: '10010045',
+  ent_epc: '000000000000000010010045',
+  ent_desc: 'Diamond Earring T43',
+  ent_material: 'DMD',
+  ent_type: 56,
+  ent_subtype: 16,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 12,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9d1,
+  ent_company: 'HLS',
+  ent_code: '10017',
+  ent_extcode: 'GR17',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Gold Chain T16',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 12,
+  ent_brand: 'TAN',
+  ent_status: 'TRN',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 17,
+  ent_weight: 4.56,
+  ent_purity: 17.5,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9d2,
+  ent_company: 'HLS',
+  ent_code: '10018',
+  ent_extcode: 'GR18',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Gold Anklets T17',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 18,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 14,
+  ent_weight: 12.5,
+  ent_purity: 17.5,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9c7,
+  ent_company: 'HLS',
+  ent_code: '10007',
+  ent_extcode: 'GR07',
+  ent_serial: '10001007',
+  ent_epc: '000000000000000010001007',
+  ent_desc: 'Gold Bracelet T06',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 14,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 12,
+  ent_weight: 15.5,
+  ent_purity: 22.3,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9ce,
+  ent_company: 'HLS',
+  ent_code: '10014',
+  ent_extcode: 'GR14',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Gold Chain T13',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 12,
+  ent_brand: 'TAN',
+  ent_status: 'SLD',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 12,
+  ent_weight: 8.5,
+  ent_purity: 23.1,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5fdc520a7a037323ec1e6341,
+  ent_company: 'HLS',
+  ent_code: '10021',
+  ent_extcode: 'GR21',
+  ent_serial: '20001021',
+  ent_epc: '000000000000000020001021',
+  ent_desc: 'Silver Anklets T20',
+  ent_material: 'SIL',
+  ent_type: 56,
+  ent_subtype: 18,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 8,
+  ent_location: 13,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9c2,
+  ent_company: 'HLS',
+  ent_code: '10001',
+  ent_extcode: 'GR01',
+  ent_serial: '10001001',
+  ent_epc: '000000000000000010001001',
+  ent_desc: 'Gold Ring T56 aa',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 13,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 8,
+  ent_location: 13,
+  ent_weight: 2.2,
+  ent_purity: 18.5,
+  ent_price: 31500,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9df,
+  ent_company: 'HLS',
+  ent_code: '10032',
+  ent_extcode: 'GR32',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Diamond Bangles T28',
+  ent_material: 'DMD',
+  ent_type: 56,
+  ent_subtype: 17,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 15,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9d6,
+  ent_company: 'HLS',
+  ent_code: '10023',
+  ent_extcode: 'GR23',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Diamond Ring T21',
+  ent_material: 'DMD',
+  ent_type: 56,
+  ent_subtype: 13,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 14,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9da,
+  ent_company: 'HLS',
+  ent_code: '10027',
+  ent_extcode: 'GR27',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Silver Ring T25',
+  ent_material: 'SIL',
+  ent_type: 56,
+  ent_subtype: 13,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 17,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9e4,
+  ent_company: 'HLS',
+  ent_code: '10037',
+  ent_extcode: 'GR37',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Gold Necklace T35',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 15,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 17,
+  ent_weight: 65.88,
+  ent_purity: 22.5,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9e9,
+  ent_company: 'HLS',
+  ent_code: '10042',
+  ent_extcode: 'GR42',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Diamond Necklace T40',
+  ent_material: 'DMD',
+  ent_type: 56,
+  ent_subtype: 15,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 14,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9c6,
+  ent_company: 'HLS',
+  ent_code: '10006',
+  ent_extcode: 'GR06',
+  ent_serial: '10011006',
+  ent_epc: '000000000000000010011006',
+  ent_desc: 'Gold Bracelet T05',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 14,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 12,
+  ent_weight: 22.5,
+  ent_purity: 22.3,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9d4,
+  ent_company: 'HLS',
+  ent_code: '10020',
+  ent_extcode: 'GR20',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Gold Anklets T19',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 18,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 8,
+  ent_location: 13,
+  ent_weight: 22.5,
+  ent_purity: 17.5,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9c8,
+  ent_company: 'HLS',
+  ent_code: '10008',
+  ent_extcode: 'GR08',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Gold Bracelet T07',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 14,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 12,
+  ent_weight: 35.3,
+  ent_purity: 22.3,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9d3,
+  ent_company: 'HLS',
+  ent_code: '10019',
+  ent_extcode: 'GR19',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Gold Anklets T18',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 18,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 16,
+  ent_weight: 13.5,
+  ent_purity: 17.5,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9c9,
+  ent_company: 'HLS',
+  ent_code: '10009',
+  ent_extcode: 'GR09',
+  ent_serial: '10001009',
+  ent_epc: '000000000000000010001009',
+  ent_desc: 'Gold Bracelet T08',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 14,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 14,
+  ent_weight: 11.5,
+  ent_purity: 22.3,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9d5,
+  ent_company: 'HLS',
+  ent_code: '10022',
+  ent_extcode: 'GR22',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Silver Anklets T21',
+  ent_material: 'SIL',
+  ent_type: 56,
+  ent_subtype: 18,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 12,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9e5,
+  ent_company: 'HLS',
+  ent_code: '10038',
+  ent_extcode: 'GR38',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Diamond Necklace T36',
+  ent_material: 'DMD',
+  ent_type: 56,
+  ent_subtype: 15,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 15,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9e7,
+  ent_company: 'HLS',
+  ent_code: '10040',
+  ent_extcode: 'GR40',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Diamond Necklace T38',
+  ent_material: 'DMD',
+  ent_type: 56,
+  ent_subtype: 15,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 15,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9f3,
+  ent_company: 'HLS',
+  ent_code: '10099',
+  ent_extcode: 'GR99',
+  ent_serial: '10010099',
+  ent_epc: '000000000000000010010099',
+  ent_desc: 'Platinum Bangle T99',
+  ent_material: 'PLT',
+  ent_type: 56,
+  ent_subtype: 17,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 12,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9cf,
+  ent_company: 'HLS',
+  ent_code: '10015',
+  ent_extcode: 'GR15',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Gold Chain T14',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 12,
+  ent_brand: 'TAN',
+  ent_status: 'MSG',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 12,
+  ent_weight: 6.6,
+  ent_purity: 23.1,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9d8,
+  ent_company: 'HLS',
+  ent_code: '10025',
+  ent_extcode: 'GR25',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Diamond Ring T23',
+  ent_material: 'DMD',
+  ent_type: 56,
+  ent_subtype: 13,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 16,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9ed,
+  ent_company: 'HLS',
+  ent_code: '10046',
+  ent_extcode: 'GR46',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Diamond Earring T44',
+  ent_material: 'DMD',
+  ent_type: 56,
+  ent_subtype: 16,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 15,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9ef,
+  ent_company: 'HLS',
+  ent_code: '10048',
+  ent_extcode: 'GR48',
+  ent_serial: '10010048',
+  ent_epc: '000000000000000010010048',
+  ent_desc: 'Platinum Ring T46',
+  ent_material: 'PLT',
+  ent_type: 56,
+  ent_subtype: 13,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 16,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9f1,
+  ent_company: 'HLS',
+  ent_code: '10098',
+  ent_extcode: 'GR98',
+  ent_serial: '10010098',
+  ent_epc: '000000000000000010010098',
+  ent_desc: 'Platinum Bracelet T98',
+  ent_material: 'PLT',
+  ent_type: 56,
+  ent_subtype: 14,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 12,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5faa43fc9855943f402a7405,
+  ent_company: 'HLS',
+  ent_code: '10002',
+  ent_extcode: 'GR02',
+  ent_serial: '10001002',
+  ent_epc: '000000000000000010001002',
+  ent_desc: 'Gold Ring T02',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 13,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 8,
+  ent_location: 13,
+  ent_weight: 1.35,
+  ent_purity: 18.5,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9d0,
+  ent_company: 'HLS',
+  ent_code: '10016',
+  ent_extcode: 'GR16',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Gold Chain T15',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 12,
+  ent_brand: 'TAN',
+  ent_status: 'MSG',
+  ent_warehouse: 17,
+  ent_area: 7,
+  ent_location: 12,
+  ent_weight: 5.5,
+  ent_purity: 17.5,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9ee,
+  ent_company: 'HLS',
+  ent_code: '10047',
+  ent_extcode: 'GR47',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Diamond Earring T45',
+  ent_material: 'DMD',
+  ent_type: 56,
+  ent_subtype: 16,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 17,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9ca,
+  ent_company: 'HLS',
+  ent_code: '10010',
+  ent_extcode: 'GR10',
+  ent_serial: '10001010',
+  ent_epc: '000000000000000010001010',
+  ent_desc: 'Gold Bangles T01',
+  ent_material: 'GLD',
+  ent_type: 56,
+  ent_subtype: 17,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 8,
+  ent_location: 13,
+  ent_weight: 20.5,
+  ent_purity: 22.3,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9db,
+  ent_company: 'HLS',
+  ent_code: '10028',
+  ent_extcode: 'GR28',
+  ent_serial: '',
+  ent_epc: '',
+  ent_desc: 'Silver Ring T26',
+  ent_material: 'SIL',
+  ent_type: 56,
+  ent_subtype: 13,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: 15,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 31500,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 5f9d27a656c8041ee0c2a9de,
+  ent_company: 'HLS',
+  ent_code: '10031',
+  ent_extcode: 'GR31',
+  ent_serial: '10010031',
+  ent_epc: '000000000000000010010031',
+  ent_desc: 'Diamond Bracelet T29',
+  ent_material: 'DMD',
+  ent_type: 56,
+  ent_subtype: 14,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_warehouse: 17,
+  ent_area: 9,
+  ent_location: null,
+  ent_weight: null,
+  ent_purity: null,
+  ent_duration: 0,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_price: 25666,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 6328543afb1e3829d40882a0,
+  ent_company: 'HLS',
+  ent_code: '10051',
+  ent_desc: 'Diamond Bracelet T29',
+  ent_serial: '10010056',
+  ent_epc: '8596557444',
+  ent_material: 'Diamond',
+  ent_type: 59,
+  ent_subtype: 14,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_location: 13,
+  ent_weight: 10.5,
+  ent_purity: 22.5,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_duration: 0,
+  ent_price: 31500,
+  ent_extcode: null,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 63285a2efb1e3829d40882a4,
+  ent_company: 'HLS',
+  ent_code: '10052',
+  ent_desc: 'Silver',
+  ent_serial: '10010057',
+  ent_epc: '8569568565',
+  ent_material: 'Silver',
+  ent_type: 56,
+  ent_subtype: 13,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_location: 12,
+  ent_weight: 10.6,
+  ent_purity: 23.6,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_duration: 0,
+  ent_price: 32588,
+  ent_extcode: null,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 63285a2efb1e3829d40882a5,
+  ent_company: 'HLS',
+  ent_code: '10053',
+  ent_desc: 'Platinum',
+  ent_serial: '10010057',
+  ent_epc: '8569568565',
+  ent_material: 'Platinum',
+  ent_type: 56,
+  ent_subtype: 13,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_location: 12,
+  ent_weight: 10.6,
+  ent_purity: 23.6,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_duration: 0,
+  ent_price: 32588,
+  ent_extcode: null,
+  ent_unit: '',
+  ent_sku: '',
+  ent_lot: ''
+},{
+  _id: 63285a2efb1e3829d40882a6,
+  ent_company: 'HLS',
+  ent_code: '10054',
+  ent_desc: 'Gold',
+  ent_serial: '10010057',
+  ent_epc: '8569568565',
+  ent_material: 'Gold',
+  ent_type: 57,
+  ent_subtype: 15,
+  ent_brand: 'TAN',
+  ent_status: 'STK',
+  ent_location: 12,
+  ent_weight: 23.2,
+  ent_purity: 23.6,
+  ent_lastseen: 2021-01-23T14:43:44.000Z,
+  ent_duration: 0,
+  ent_price: 32588,
+  ent_extcode: 'GR04',
+  ent_unit: 'KG',
+  ent_sku: 'rrrtyy',
+  ent_lot: '123ffr'
+}
