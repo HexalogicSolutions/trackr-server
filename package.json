@@ -4,8 +4,8 @@
   "description": "Mern authentication boilerplate",
   "main": "server.js",
   "engines": {
-    "node": "18.16.0",
-    "npm": "9.6.5"
+    "node": "24.1.0",
+    "npm": "11.3.0"
   },
   "scripts": {
     "start": "node server.js",
